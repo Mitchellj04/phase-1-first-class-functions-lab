@@ -25,10 +25,10 @@ function createFareMultiplier(fare){
 let fareDoubler = fare => fare*2;
 let fareTripler = fare => fare*3;
 
-function selectDifferentDrivers(driverNames){
-    if (returnFirstTwoDrivers === driverNames){
+function selectDifferentDrivers(driverNames, variable){
+    if (returnFirstTwoDrivers === variable){
         return firstTwo; 
-    }else if (returnLastTwoDrivers === driverNames){
+    }else if (returnLastTwoDrivers === variable){
         return lastTwo;
     }
 }
